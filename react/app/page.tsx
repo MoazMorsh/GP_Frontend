@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-      <main className={styles.html}>
+      <div className={styles.main}>
         <script src="../code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossOrigin="anonymous"></script>
         <title>Find Nearby Pharmacies & Medicines with MediTrack</title>
         <meta name="title" content="Find Nearby Pharmacies & Medicines with MediTrack" />
@@ -11,11 +11,6 @@ export default function Home() {
 <meta property="og:title" content="Find Nearby Pharmacies & Medicines with MediTrack" />
 <meta property="og:description" content="Discover local pharmacies and check medicine availability instantly with MediTrack." />
 
-
-      <script>
-        var __CLIENT_UID__ = "943Bbhm3";
-        var __PRODUCT_URL__ = "https://b12.io/";
-      </script>
     
 <link rel="stylesheet" href="style.css" />
 <link href="script.js" />
@@ -1243,20 +1238,14 @@ export default function Home() {
 
 
   <script>
-    
-  </script>
-
-
-
-
-  <script>
     var lazyLoadImages = new LazyLoad({
       elements_selector: ".lazy",
       threshold: 500
     });
   </script>
   </div>
-  <div id="sb-popup"></div>
+
+  
 
   
     <script src="../www.google.com/recaptcha/apifb47.js?render=6Ld1R8kUAAAAAGEYGyd1RXFcdSGY03uF4y_yN40A" async={true}></script>
@@ -1269,7 +1258,7 @@ export default function Home() {
   
 
 
-      </main>
+      </div>
       
       );
 }

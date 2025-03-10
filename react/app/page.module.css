@@ -1,5 +1,10 @@
 @charset "UTF-8";
 /* latin-ext */
+.main{
+    display:flex;
+    flex-direction: column;
+    
+}
 @font-face 
   {font-family: 'Poppins';
   font-style: normal;
