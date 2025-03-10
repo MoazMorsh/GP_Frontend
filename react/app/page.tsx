@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-      <div className={styles.main}>
+      <main className={styles.main}>
         <script src="../code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossOrigin="anonymous"></script>
         <title>Find Nearby Pharmacies & Medicines with MediTrack</title>
         <meta name="title" content="Find Nearby Pharmacies & Medicines with MediTrack" />
@@ -1258,7 +1258,7 @@ export default function Home() {
   
 
 
-      </div>
+      </main>
       
       );
 }
